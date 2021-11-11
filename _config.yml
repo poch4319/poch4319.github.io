@@ -13,16 +13,23 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
-search: true
+
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+# Site Settings
+locale                   : "en-US"
+title                    : "Johnny's Blog"
+title_separator          : "-"
+subtitle                 : "Machine Learning, NLP, Data Science" # site tagline that appears below site title in masthead
+name                     : "Po-Chun Chang"
+description              : "Machine Learning, NLP, Data Science and things"
+url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : # the subpath of your site, e.g. "/blog"
+repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+
 
 # Build settings
 markdown: kramdown
@@ -57,10 +64,11 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+# Site Author
 author:
   name   : "Po-Chun Chang"
   avatar : "/assets/images/photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Might celebrates working code with a bollywood movie."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -75,6 +83,7 @@ author:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/poch4319"
 
+# Site Footer
 footer:
   links:
     #- label: "Twitter"
@@ -87,6 +96,8 @@ footer:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/poch4319"
 
+
+# Defaults
 defaults:
   # _posts
   - scope:
