@@ -68,7 +68,7 @@ plugins:
 author:
   name   : "Po-Chun Chang"
   avatar : "/assets/images/photo.jpg"
-  bio    : "Might celebrates working code with a bollywood movie. Feel free to connect with me on LinkedIn."
+  bio    : "Might celebrates working code with a bollywood movie... Feel free to connect with me on LinkedIn."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
